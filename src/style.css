@@ -1,0 +1,81 @@
+*{
+  font-family: serif;
+  background-color: #F0F0F0;
+  color: black;
+  font-size: 1.2rem;
+}
+.btnBar{
+  padding-right:1rem ;
+  margin-top: 5.4rem;
+  display: flex;
+  flex-direction: row;
+}
+body {
+  margin: 0;
+}
+.paragraf{
+  text-align: left;
+  font-family: serif;
+  margin: -2rem;
+  line-height: 1.7rem;
+  font-size: 1.7rem;
+  background-color: transparent;
+  word-spacing: 5px;
+}
+.poem{
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 9rem;
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+.bar{
+  margin-right: 0.7rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: black;
+  display: inline-block;
+  border: 3px solid black;
+  &:hover{
+    background-color: #F0F0F0;
+    cursor: pointer;
+  }
+  &:focus{
+    background-color: #F0F0F0;
+  }
+
+}
+main{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.name{
+  margin: 2.3rem 0 0 33rem ;
+  position: absolute;
+}
+.name p{
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  *{
+    font-size: 0.6rem;
+  }
+  .name{
+    margin: 2.3rem 0 0 37rem ;
+  }
+  .poem{
+    min-width:max-content;
+  }
+}
